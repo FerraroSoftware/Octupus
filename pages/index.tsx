@@ -108,7 +108,7 @@ const Home: NextPage = () => {
 
       <div className="relative">
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
-          <div className="flex justify-around">
+          <div className="flex flex-wrap justify-around">
             <div>
               <img
                 className="mx-auto lg:ml-auto sm:max-w-xs rounded-xl"
