@@ -6,6 +6,13 @@ import styles from "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
     <div className="relative pt-48 pb-12 bg-black xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
+      <div className="absolute inset-0 lg:inset-y-0 lg:left-0">
+        <img
+          className="object-cover w-full h-full opacity-50 md:w-auto lg:opacity-100"
+          src="/background.svg"
+          alt=""
+        />
+      </div>
       <header className="absolute inset-x-0 top-0 z-10 py-8 xl:py-12">
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
           <div className="flex items-center justify-between">
@@ -16,8 +23,8 @@ const Home: NextPage = () => {
                 className="inline-flex rounded-md focus:outline-none focus:ring-2 focus:ring-offset-4 focus:ring-offset-secondary focus:ring-primary"
               >
                 <img
-                  className="w-auto h-8"
-                  src="https://cdn.rareblocks.xyz/collection/bakerstreet/images/logo.svg"
+                  className="w-auto h-20"
+                  src="/logo2.svg"
                   alt="BakerStreet"
                 />
               </a>
@@ -50,7 +57,7 @@ const Home: NextPage = () => {
               <a
                 href="#"
                 title=""
-                className="font-sans text-base font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                className="font-sans  text-2xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
               >
                 {" "}
                 RoadMap{" "}
@@ -59,7 +66,7 @@ const Home: NextPage = () => {
               <a
                 href="#"
                 title=""
-                className="font-sans text-base font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                className="font-sans text-2xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
               >
                 {" "}
                 Team{" "}
@@ -68,7 +75,7 @@ const Home: NextPage = () => {
               <a
                 href="#"
                 title=""
-                className="font-sans text-base font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                className="font-sans text-2xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
               >
                 {" "}
                 Contract{" "}
@@ -78,29 +85,39 @@ const Home: NextPage = () => {
             <div className="hidden md:block">
               <button
                 type="button"
-                className="p-2 -m-2 transition-all duration-200 rounded-full focus:ring-offset-secondary text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary"
+                className="p-4 -m-2 transition-all
+                duration-200
+                bg-transparent
+                border-2
+                rounded-full
+                sm:leading-8
+                text-white
+                border-primary
+                hover:bg-white
+                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
+                hover:text-black
+                sm:text-lg
+                focus:ring-offset-secondary"
               >
-                Connect
+                Connect Wallet
               </button>
             </div>
           </div>
         </div>
       </header>
 
-      <div className="absolute inset-0 lg:inset-y-0 lg:left-0">
-        <img
-          className="object-cover w-full h-full opacity-50 md:w-auto lg:opacity-100"
-          src="/background.svg"
-          alt=""
-        />
-      </div>
-      
-
       <div className="relative">
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
-          <div className="flex justify-end">
+          <div className="flex justify-around">
+            <div>
+              <img
+                className="mx-auto lg:ml-auto sm:max-w-xs rounded-xl"
+                src="/octopus.svg"
+                alt=""
+              />
+            </div>
+
             <div className="w-full lg:w-1/2">
-              
               <p className="mt-6 tracking-tighter text-white">
                 <span className="font-serif italic font-normal text-8xl">
                   Swim Into
@@ -111,8 +128,8 @@ const Home: NextPage = () => {
                 </span>
               </p>
               <p className="max-w-md mt-5 font-sans text-base font-normal leading-7 text-white text-opacity-70">
-                3,333 Octupus have been swimming through the metaverse. They can be tough to catch, as they
-                love to squeeze through tiny gaps.
+                3,333 Octopus have been swimming through the metaverse. They can
+                be tough to catch, as they are master escape artist.
               </p>
               <div className="flex items-center mt-8 space-x-3 sm:space-x-4">
                 <a
@@ -171,7 +188,6 @@ const Home: NextPage = () => {
                             "
                   role="button"
                 >
-                  
                   Join Discord
                 </a>
               </div>
