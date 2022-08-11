@@ -17,7 +17,7 @@ export default class Roadmap extends React.Component {
 
         <div className="mt-16 lg:mt-20">
           <ul className="max-w-lg mx-auto space-y-12">
-            <li className="sm:flex sm:items-start">
+            <li className="sm:flex sm:items-start" data-aos="zoom-in" data-aos-duration="1000"> 
               <p className="w-20 text-3xl font-bold shrink-0 sm:text-right text-rose-500">
                 0%
               </p>
@@ -36,7 +36,7 @@ export default class Roadmap extends React.Component {
               </div>
             </li>
 
-            <li className="sm:flex sm:items-start">
+            <li className="sm:flex sm:items-start" data-aos="zoom-in" data-aos-duration="1000">
               <p className="w-20 text-3xl font-bold shrink-0 sm:text-right text-rose-500">
                 25%
               </p>
@@ -55,7 +55,7 @@ export default class Roadmap extends React.Component {
               </div>
             </li>
 
-            <li className="sm:flex sm:items-start">
+            <li className="sm:flex sm:items-start" data-aos="zoom-in" data-aos-duration="1000">
               <p className="w-20 text-3xl font-bold shrink-0 sm:text-right text-rose-500">
                 50%
               </p>
@@ -74,7 +74,7 @@ export default class Roadmap extends React.Component {
               </div>
             </li>
 
-            <li className="sm:flex sm:items-start">
+            <li className="sm:flex sm:items-start" data-aos="zoom-in" data-aos-duration="1000">
               <p className="w-20 text-3xl font-bold shrink-0 sm:text-right text-rose-500">
                 100%
               </p>
