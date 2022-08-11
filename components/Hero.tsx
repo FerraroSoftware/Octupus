@@ -59,7 +59,7 @@ export default class Hero extends React.Component {
                   <a
                     href="#"
                     title=""
-                    className="font-sans  text-2xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                    className="font-sans  text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                   >
                     {" "}
                     RoadMap{" "}
@@ -68,7 +68,7 @@ export default class Hero extends React.Component {
                   <a
                     href="#"
                     title=""
-                    className="font-sans text-2xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                    className="font-sans text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                   >
                     {" "}
                     Team{" "}
@@ -77,7 +77,7 @@ export default class Hero extends React.Component {
                   <a
                     href="#"
                     title=""
-                    className="font-sans text-2xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                    className="font-sans text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                   >
                     {" "}
                     Contract{" "}
@@ -87,7 +87,7 @@ export default class Hero extends React.Component {
                 <div className="hidden md:block">
                   <button
                     type="button"
-                    className="p-4 -m-2 transition-all
+                    className="p-3 -m-2 transition-all
                 duration-200
                 bg-transparent
                 border-2
