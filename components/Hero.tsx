@@ -59,7 +59,7 @@ export default class Hero extends React.Component {
                   <a
                     href="#"
                     title=""
-                    className="font-sans  text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                    className="font-sans  text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary hover:text-indigo-600"
                   >
                     {" "}
                     RoadMap{" "}
@@ -68,7 +68,7 @@ export default class Hero extends React.Component {
                   <a
                     href="#"
                     title=""
-                    className="font-sans text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                    className="font-sans text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary hover:text-indigo-600"
                   >
                     {" "}
                     Team{" "}
@@ -77,7 +77,7 @@ export default class Hero extends React.Component {
                   <a
                     href="#"
                     title=""
-                    className="font-sans text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                    className="font-sans text-lg font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary hover:text-indigo-600"
                   >
                     {" "}
                     Contract{" "}
