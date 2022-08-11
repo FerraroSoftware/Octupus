@@ -9,10 +9,10 @@ import Roadmap from "../components/Roadmap";
 const Home: NextPage = () => {
   return (
     <>
-   <Hero></Hero>
-   <Feature></Feature>
-   <Roadmap></Roadmap>
-   </>
+      <Hero></Hero>
+      <Feature></Feature>
+      <Roadmap></Roadmap>
+    </>
   );
 };
 
