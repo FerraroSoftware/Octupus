@@ -9,7 +9,7 @@ export default class Hero extends React.Component {
       <>  
        <div className="relative pt-48 pb-12 xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
       
-      <div className="absolute inset-0 lg:inset-y-0 lg:left-0">
+      <div className="absolute inset-0 lg:inset-y-0 lg:left-0 " >
         <img
           className="object-cover w-full h-full opacity-50 md:w-auto lg:opacity-100"
           src="/background.svg"
@@ -112,11 +112,14 @@ export default class Hero extends React.Component {
       <div className="relative">
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
           <div className="flex flex-wrap justify-around">
-            <div>
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
               <img
                 className="mx-auto lg:ml-auto sm:max-w-xs rounded-xl"
                 src="/octopus.svg"
                 alt=""
+                
               />
             </div>
 
