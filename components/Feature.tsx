@@ -7,7 +7,7 @@ export default class Feature extends React.Component {
     const { showing } = this.state;
     return (
       <>  
-      <section className="py-12  sm:py-16 lg:py-20">
+      <section className="py-12  sm:py-16 lg:py-20 bg-customblue">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center max-w-5xl grid-cols-1 mx-auto gap-y-12 lg:grid-cols-2 gap-x-16 xl:gap-x-24">
           <div className="lg:order-last">
